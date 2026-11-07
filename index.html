@@ -149,8 +149,8 @@ footer{border-top:1px solid var(--line);padding:32px 0;color:var(--mute);font-si
   </div>
 
   <label for="f-file">Макет, фото или эскиз (по желанию)</label>
-  <input id="f-file" name="fayl" type="file" multiple>
-  <p class="hint">Если файлов много или они большие, напишите об этом в задаче, мы подскажем, как их передать.</p>
+  <input id="f-file" name="fayl" type="file" aria-describedby="f-file-hint">
+  <p class="hint" id="f-file-hint">Небольшой файл, до 2 МБ. Большие макеты пришлите ссылкой на Google Диск.</p>
 
   <div class="row"><button class="btn" type="submit">Отправить заявку</button></div>
  </form>
